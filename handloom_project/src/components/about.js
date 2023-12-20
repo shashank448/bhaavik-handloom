@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Header from "./Header";
 
 const mapstyle = {
@@ -9,13 +9,13 @@ const p = {
     padding: '20px',
 }
 
-const HomePage = () =>{
+const AboutPage = () =>{
     return (
         <>
             <Header />
-            <p style={mapstyle}>This is the home page</p>
+            <p style={mapstyle}>This is the about page</p>
         </>
     )
 }
 
-export default HomePage;
+export default AboutPage;
